@@ -30,16 +30,13 @@
 
 
 
-*IMPRIMIENDO ECONOMÍA CIRCULAR E INNOVACIÓN SOCIAL*
 
+*IMPRIMIENDO ECONOMÍA CIRCULAR E INNOVACIÓN SOCIAL*
 # FILAMENTOS
 
 *"CHAKRA FILAMENT integra tres filamentos base que trabajan en conjunto para garantizar un desempeño óptimo en impresión 3D, equilibrando eficiencia mecánica y compromiso ecológico."*
-
 ![WhatsApp Image 2026-02-06 at 10 44 59 PM](https://github.com/user-attachments/assets/7e3e2882-1b64-49d8-9ba6-ba0f0dc768fa)
-
 *PROCESO DE ELABORACIÓN*
-
 <img width="897" height="267" alt="image" src="https://github.com/user-attachments/assets/18106d7b-ba2f-4a0e-8cfc-7ff33b02632d" />
 
 <img width="897" height="240" alt="image" src="https://github.com/user-attachments/assets/d88f52e3-d61e-4c7e-b67f-085cab1d8daf" />
@@ -51,7 +48,15 @@
 <img width="898" height="248" alt="image" src="https://github.com/user-attachments/assets/6f9eb5ef-d336-4a8c-84cf-677d49a56392" />
 
 
+*INNOVACIÓN QUE IMPULSA*
+# INTEGRANTES DEL PROYECTO 
+![WhatsApp Image 2026-02-06 at 10 56 51 PM](https://github.com/user-attachments/assets/8dfb313f-0e88-45f0-a500-0547a083c4fc)
 
 
+<img width="902" height="621" alt="image" src="https://github.com/user-attachments/assets/732d2e3a-7fc8-47dc-ae6b-de473a4946b8" />
 
+
+<img width="897" height="311" alt="image" src="https://github.com/user-attachments/assets/db4371c4-c6b8-4114-9842-d001e832300b" />
+
+**CHAKRAFILAMENT**
 
