@@ -4,7 +4,8 @@
 
 *Cada año se generan más de 400 millones de toneladas de plástico, y gran parte termina contaminando océanos y vertederos, según la ONU. Para enfrentar esta crisis, *Chacra Filament* ofrece una solución sostenible: transformar residuos orgánicos en filamentos biodegradables para impresión 3D, reduciendo el uso de plásticos convencionales y fomentando una economía circular.*
 
-![WhatsApp Image 2026-02-06 at 8 29 16 PM](https://github.com/user-attachments/assets/ac154e2a-904e-482d-8168-55fac27bf8cc)
+![WhatsApp Image 2026-02-06 at 11 26 51 PM](https://github.com/user-attachments/assets/8f8e241f-35f1-41d6-aac5-6344d073afdb)
+
 
 
 *IMPRIMIENDO ECONOMÍA CIRCULAR E INNOVACIÓN SOCIAL*
@@ -35,22 +36,21 @@
 # FILAMENTOS
 
 *"CHAKRA FILAMENT integra tres filamentos base que trabajan en conjunto para garantizar un desempeño óptimo en impresión 3D, equilibrando eficiencia mecánica y compromiso ecológico."*
+
 ![WhatsApp Image 2026-02-06 at 10 44 59 PM](https://github.com/user-attachments/assets/7e3e2882-1b64-49d8-9ba6-ba0f0dc768fa)
 *PROCESO DE ELABORACIÓN*
-<img width="897" height="267" alt="image" src="https://github.com/user-attachments/assets/18106d7b-ba2f-4a0e-8cfc-7ff33b02632d" />
+<img width="865" height="287" alt="image" src="https://github.com/user-attachments/assets/b1dab3c8-383c-468c-a2c7-23cbb1035265" />
+<img width="867" height="247" alt="image" src="https://github.com/user-attachments/assets/42a06d2d-ab66-4ef0-8e90-887fb854bff4" />
+<img width="863" height="260" alt="image" src="https://github.com/user-attachments/assets/ce2c3b03-8d67-4c06-80fa-8e4efd990995" />
+<img width="862" height="297" alt="image" src="https://github.com/user-attachments/assets/8fcd35e4-b3e4-44a2-8463-b61eb7ca7b93" />
+<img width="866" height="252" alt="image" src="https://github.com/user-attachments/assets/50a68d2c-9ef9-4465-b619-ea14e07d3541" />
 
-<img width="897" height="240" alt="image" src="https://github.com/user-attachments/assets/d88f52e3-d61e-4c7e-b67f-085cab1d8daf" />
-
-<img width="897" height="258" alt="image" src="https://github.com/user-attachments/assets/a87e2e1c-3c83-4a64-b5d8-4212b2ccb396" />
-
-<img width="897" height="298" alt="image" src="https://github.com/user-attachments/assets/3be51a27-a1e3-4fe6-acad-8cce9e7e084a" />
-
-<img width="898" height="248" alt="image" src="https://github.com/user-attachments/assets/6f9eb5ef-d336-4a8c-84cf-677d49a56392" />
 
 
 *INNOVACIÓN QUE IMPULSA*
 # INTEGRANTES DEL PROYECTO 
-![WhatsApp Image 2026-02-06 at 10 56 51 PM](https://github.com/user-attachments/assets/8dfb313f-0e88-45f0-a500-0547a083c4fc)
+![WhatsApp Image 2026-02-06 at 11 27 21 PM](https://github.com/user-attachments/assets/75f169d0-78ef-41d0-ae21-027c55975392)
+
 
 
 <img width="902" height="621" alt="image" src="https://github.com/user-attachments/assets/732d2e3a-7fc8-47dc-ae6b-de473a4946b8" />
