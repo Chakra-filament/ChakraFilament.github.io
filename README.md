@@ -64,11 +64,6 @@
 Irene ElevaciónAcosta Vargas 
 ![WhatsApp Image 2026-03-02 at 10 38 44 PM](https://github.com/user-attachments/assets/f4e1bce0-b5d1-4886-aea6-5a4dc5536608)
 
-<canvas id="particles"></canvas>
-<script src="script.js"></script>
-<section class="reveal">
-
-<h2><span class="counter" data-target="400">0</span>M toneladas</h2>
 
 
 
