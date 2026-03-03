@@ -47,7 +47,8 @@
 
 *INNOVACIÓN QUE IMPULSA*
 # INTEGRANTES DEL PROYECTO 
-![WhatsApp Image 2026-02-06 at 11 27 21 PM](https://github.com/user-attachments/assets/75f169d0-78ef-41d0-ae21-027c55975392)
+
+<img width="726" height="241" alt="image" src="https://github.com/user-attachments/assets/7af587ee-44f9-495b-b308-78a64958e849" />
 
 
 
@@ -60,7 +61,7 @@
 
 
 Irene ElevaciónAcosta Vargas 
-![WhatsApp Image 2026-03-02 at 10 38 44 PM](https://github.com/user-attachments/assets/f4e1bce0-b5d1-4886-aea6-5a4dc5536608)
+
 
 
 
