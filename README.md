@@ -53,12 +53,6 @@
 
 
 
-
-<img width="902" height="621" alt="image" src="https://github.com/user-attachments/assets/732d2e3a-7fc8-47dc-ae6b-de473a4946b8" />
-
-
-<img width="897" height="311" alt="image" src="https://github.com/user-attachments/assets/db4371c4-c6b8-4114-9842-d001e832300b" />
-
 **CHAKRAFILAMENT**
 
 
@@ -88,7 +82,14 @@ Arquitecta en la Universidad Regional Amazónica IKIAM
 
 Arquitecto en la universidad regional Amazónica IKIAM
 
+
+
 <img width="405" height="351" alt="image" src="https://github.com/user-attachments/assets/2594a1dc-c15b-4243-97a7-75caa393df1e" />
 
 
+
+<img width="902" height="621" alt="image" src="https://github.com/user-attachments/assets/732d2e3a-7fc8-47dc-ae6b-de473a4946b8" />
+
+
+<img width="897" height="311" alt="image" src="https://github.com/user-attachments/assets/db4371c4-c6b8-4114-9842-d001e832300b" />
 
