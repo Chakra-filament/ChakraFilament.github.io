@@ -7,7 +7,6 @@
 ![WhatsApp Image 2026-02-06 at 11 26 51 PM](https://github.com/user-attachments/assets/8f8e241f-35f1-41d6-aac5-6344d073afdb)
 
 
-
 *IMPRIMIENDO ECONOMÍA CIRCULAR E INNOVACIÓN SOCIAL*
 # CHAKRA FILAMENT
 
