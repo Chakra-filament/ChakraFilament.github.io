@@ -60,3 +60,98 @@
 
 **CHAKRAFILAMENT**
 
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chakra Filament</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="fade-in">¿Dónde termina tu plástico?</h1>
+    <p class="fade-in delay">Nosotros lo transformamos.</p>
+    <a href="#impacto" class="btn">Descubre la revolución</a>
+  </div>
+</section>
+
+<!-- CONTADORES -->
+<section id="impacto" class="impacto">
+  <h2>Impacto Global</h2>
+  <div class="counters">
+    <div class="counter-box">
+      <h3><span class="counter" data-target="400">0</span>M</h3>
+      <p>Toneladas de plástico/año</p>
+    </div>
+    <div class="counter-box">
+      <h3><span class="counter" data-target="60">0</span>%</h3>
+      <p>Mal gestionado</p>
+    </div>
+    <div class="counter-box">
+      <h3>1</h3>
+      <p>Solución Amazónica</p>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section class="timeline">
+  <h2>Proceso de Elaboración</h2>
+  <div class="timeline-container">
+    <div class="step">Recolección</div>
+    <div class="step">Nanocelulosa</div>
+    <div class="step">Compounding</div>
+    <div class="step">Extrusión</div>
+    <div class="step">Impresión 3D</div>
+  </div>
+</section>
+
+<!-- FILAMENTOS -->
+<section class="filamentos">
+  <h2>Nuestros Filamentos</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">Filamento Base</div>
+        <div class="card-back">
+          Temp: 190-210°C<br>
+          Biodegradable<br>
+          Alta resistencia
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">Filamento Flexible</div>
+        <div class="card-back">
+          Temp: 200-220°C<br>
+          Alta flexibilidad<br>
+          Bajo impacto
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
