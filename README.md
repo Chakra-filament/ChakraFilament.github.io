@@ -62,10 +62,16 @@
 **CHAKRAFILAMENT**
 
 Irene ElevaciónAcosta Vargas 
+Pha. Magister. Arquitecta  en la Universidad Regional Amazónica IKIAM
 
 
+Arias Robinson Ulises
+Arquitecto en la universidad regional Amazónica IKIAM
 
 
+Jessica Elizabeth Edina Arias
+Arquitecta en la Universidad Regional Amazónica IKIAM
 
 
-
+Edgar Chamorro
+Arquitecto en la universidad regional Amazónica IKIAM
