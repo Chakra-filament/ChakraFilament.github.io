@@ -61,17 +61,34 @@
 
 **CHAKRAFILAMENT**
 
-Irene ElevaciónAcosta Vargas 
+
+* Irene ElevaciónAcosta Vargas 
+
 Pha. Magister. Arquitecta  en la Universidad Regional Amazónica IKIAM
 
+<img width="399" height="394" alt="image" src="https://github.com/user-attachments/assets/2436f109-e87b-426c-8470-43c42e050a0b" />
 
-Arias Robinson Ulises
+
+* Arias Robinson Ulises
+
 Arquitecto en la universidad regional Amazónica IKIAM
 
+<img width="409" height="407" alt="image" src="https://github.com/user-attachments/assets/662b23af-bfba-4e66-968b-d980420646f3" />
 
-Jessica Elizabeth Edina Arias
+
+* Jessica Elizabeth Edina Arias
+
 Arquitecta en la Universidad Regional Amazónica IKIAM
 
+<img width="405" height="383" alt="image" src="https://github.com/user-attachments/assets/b99127ce-2e40-497d-9437-713628ca29d2" />
 
-Edgar Chamorro
+
+
+* Edgar Chamorro
+
 Arquitecto en la universidad regional Amazónica IKIAM
+
+<img width="405" height="351" alt="image" src="https://github.com/user-attachments/assets/2594a1dc-c15b-4243-97a7-75caa393df1e" />
+
+
+
