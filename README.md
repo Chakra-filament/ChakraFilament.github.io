@@ -63,95 +63,166 @@
 
 
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chakra Filament</title>
-<link rel="stylesheet" href="style.css">
 
-<!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
-</head>
-<body>
+<section class="team">
+    <h1>CONOCE AL EQUIPO</h1>
 
-<!-- HERO SECTION -->
+  <div class="team-container">
+
+  <div class="card">
+  <div class="image">
+  <img src="img/persona1.jpg" alt="">
+  </div>
+  <h2>Jessica Elizabeth Edina</h2>
+   </div>
+
+  <div class="card">
+   <div class="image">
+  <img src="img/persona2.jpg" alt="">
+  </div>
+<h2>Arias Robinson Ulises</h2>
+   </div>
+
+ <div class="card">
+  <div class="image">
+   <img src="img/persona3.jpg" alt="">
+  </div>
+  <h2>Mazon Ortiz Gabriel Eduardo</h2>
+</div>
+
+<div class="card">
+  <div class="image">
+  <img src="img/persona4.jpg" alt="">
+   </div>
+   <h2>Nombre 4</h2>
+        
+        
+  </div>
+   
+</div>
+</section>
+
+
+
+
+<section class="reveal">
+  ...
+</section>
+
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+
+
+
+
+// Scroll Animation
+function revealOnScroll() {
+  const reveals = document.querySelectorAll(".reveal");
+
+  reveals.forEach(element => {
+    const windowHeight = window.innerHeight;
+    const elementTop = element.getBoundingClientRect().top;
+    const elementVisible = 100;
+
+   if (elementTop < windowHeight - elementVisible) {
+  element.classList.add("active");
+  }
+  });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+
+
+
+
+<h2><span class="counter" data-target="400">0</span>M toneladas</h2>
+
+
+
+// Counter animation
+const counters = document.querySelectorAll(".counter");
+
+counters.forEach(counter => {
+  const updateCount = () => {
+    const target = +counter.getAttribute("data-target");
+    const count = +counter.innerText;
+    const increment = target / 200;
+
+   if (count < target) {
+   counter.innerText = Math.ceil(count + increment);
+  setTimeout(updateCount, 10);
+  } else {
+   counter.innerText = target;
+  }
+  };
+
+  updateCount();
+});
+
+
+
+
 <section class="hero">
-  <div class="hero-content">
-    <h1 class="fade-in">¿Dónde termina tu plástico?</h1>
-    <p class="fade-in delay">Nosotros lo transformamos.</p>
-    <a href="#impacto" class="btn">Descubre la revolución</a>
-  </div>
-</section>
 
-<!-- CONTADORES -->
-<section id="impacto" class="impacto">
-  <h2>Impacto Global</h2>
-  <div class="counters">
-    <div class="counter-box">
-      <h3><span class="counter" data-target="400">0</span>M</h3>
-      <p>Toneladas de plástico/año</p>
-    </div>
-    <div class="counter-box">
-      <h3><span class="counter" data-target="60">0</span>%</h3>
-      <p>Mal gestionado</p>
-    </div>
-    <div class="counter-box">
-      <h3>1</h3>
-      <p>Solución Amazónica</p>
-    </div>
-  </div>
-</section>
 
-<!-- TIMELINE -->
-<section class="timeline">
-  <h2>Proceso de Elaboración</h2>
-  <div class="timeline-container">
-    <div class="step">Recolección</div>
-    <div class="step">Nanocelulosa</div>
-    <div class="step">Compounding</div>
-    <div class="step">Extrusión</div>
-    <div class="step">Impresión 3D</div>
-  </div>
-</section>
-
-<!-- FILAMENTOS -->
-<section class="filamentos">
-  <h2>Nuestros Filamentos</h2>
-  <div class="cards">
-    <div class="card">
-      <div class="card-inner">
-        <div class="card-front">Filamento Base</div>
-        <div class="card-back">
-          Temp: 190-210°C<br>
-          Biodegradable<br>
-          Alta resistencia
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-inner">
-        <div class="card-front">Filamento Flexible</div>
-        <div class="card-back">
-          Temp: 200-220°C<br>
-          Alta flexibilidad<br>
-          Bajo impacto
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<script src="script.js"></script>
-</body>
-</html>
+.hero {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
 
 
 
 
+<a href="#objetivos" class="btn">Ver más</a>
 
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 255, 120, 0.3);
+}
+
+
+
+<div class="cursor"></div>
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #00ff88;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: 0.1s;
+}
+
+
+
+const cursor = document.querySelector(".cursor");
+
+document.addEventListener("mousemove", e => {
+  cursor.style.left = e.pageX + "px";
+  cursor.style.top = e.pageY + "px";
+});
 
 
