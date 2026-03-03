@@ -236,46 +236,6 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-}
-
-.card {
-  background: #1d3a29;
-  padding: 20px;
-  border-radius: 20px;
-  width: 220px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0,255,120,0.3);
-}
-
-.card img {
-  width: 100%;
-  border-radius: 15px;
-}
-
-/* COUNTER */
-.counter {
-  font-size: 3rem;
-  color: #00ff88;
-}
-
-/* CURSOR */
-.cursor {
-  width: 20px;
-  height: 20px;
-  border: 2px solid #00ff88;
-  border-radius: 50%;
-  position: fixed;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  transition: 0.1s;
-  z-index: 9999;
-}
-
-
 
 // SCROLL REVEAL
 function revealOnScroll() {
@@ -286,9 +246,9 @@ function revealOnScroll() {
     const elementTop = element.getBoundingClientRect().top;
     const elementVisible = 100;
 
-    if (elementTop < windowHeight - elementVisible) {
-      element.classList.add("active");
-    }
+   if (elementTop < windowHeight - elementVisible) {
+ element.classList.add("active");
+}
   });
 }
 
@@ -304,12 +264,12 @@ counters.forEach(counter => {
     const count = +counter.innerText;
     const increment = target / 200;
 
-    if (count < target) {
-      counter.innerText = Math.ceil(count + increment);
-      setTimeout(updateCount, 10);
-    } else {
-      counter.innerText = target;
-    }
+  if (count < target) {
+   counter.innerText = Math.ceil(count + increment);
+  setTimeout(updateCount, 10);
+ } else {
+counter.innerText = target;
+}
   };
 
   updateCount();
@@ -322,3 +282,5 @@ document.addEventListener("mousemove", e => {
   cursor.style.left = e.pageX + "px";
   cursor.style.top = e.pageY + "px";
 });
+
+
