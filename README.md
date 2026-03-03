@@ -1,5 +1,4 @@
 
-
 ¿Te has preguntado dónde termina tu plástico?
 
 *Cada año se generan más de 400 millones de toneladas de plástico, y gran parte termina contaminando océanos y vertederos, según la ONU. Para enfrentar esta crisis, *Chacra Filament* ofrece una solución sostenible: transformar residuos orgánicos en filamentos biodegradables para impresión 3D, reduciendo el uso de plásticos convencionales y fomentando una economía circular.*
