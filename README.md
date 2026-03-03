@@ -48,7 +48,10 @@
 *INNOVACIÓN QUE IMPULSA*
 # INTEGRANTES DEL PROYECTO 
 
-<img width="726" height="241" alt="image" src="https://github.com/user-attachments/assets/7af587ee-44f9-495b-b308-78a64958e849" />
+<img width="1097" height="341" alt="image" src="https://github.com/user-attachments/assets/a5255253-004f-4a9d-8915-833362ead0c5" />
+
+
+<img width="1173" height="360" alt="image" src="https://github.com/user-attachments/assets/13f7cdce-33d0-4ae7-bcc1-6e930fe0e4e3" />
 
 
 
