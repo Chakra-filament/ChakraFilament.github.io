@@ -138,7 +138,8 @@
 
 <div class="card">
 <div class="image">
- <img src="img/persona1.jpg" alt="">
+ <img src="img/<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/e7abefc2-ec42-46e5-8a3a-c5949247823b" />
+" alt="">
 </div>
  <h2>Jessica Elizabeth Edina</h2>
 </div>
@@ -159,9 +160,10 @@
 
  <div class="card">
  <div class="image">
-<img src="img/persona4.jpg" alt="">
+<img src="![Uploading image.png…]()
+" alt="">
  </div>
- <h2>Nombre 4</h2>
+ <h2>Carrasco Carrasco Irene</h2>
 </div>
 
   </div>
@@ -177,110 +179,5 @@
 
 
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f1f14;
-  color: white;
-  scroll-behavior: smooth;
 }
-
-section {
-  padding: 100px 10%;
-  text-align: center;
-}
-
-/* HERO */
-.hero {
-  height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-              url('https://images.unsplash.com/photo-1581092334601-1fba3b45b3b0');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.btn {
-  background: #00ff88;
-  padding: 12px 30px;
-  color: black;
-  text-decoration: none;
-  border-radius: 30px;
-  display: inline-block;
-  margin-top: 20px;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: white;
-}
-
-/* REVEAL ANIMATION */
-.reveal {
-  opacity: 0;
-  transform: translateY(60px);
-  transition: 1s all ease;
-}
-
-.reveal.active {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* TEAM CARDS */
-.team-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-
-// SCROLL REVEAL
-function revealOnScroll() {
-  const reveals = document.querySelectorAll(".reveal");
-
-  reveals.forEach(element => {
-    const windowHeight = window.innerHeight;
-    const elementTop = element.getBoundingClientRect().top;
-    const elementVisible = 100;
-
-   if (elementTop < windowHeight - elementVisible) {
- element.classList.add("active");
-}
-  });
-}
-
-window.addEventListener("scroll", revealOnScroll);
-revealOnScroll();
-
-// COUNTER
-const counters = document.querySelectorAll(".counter");
-
-counters.forEach(counter => {
-  const updateCount = () => {
-    const target = +counter.getAttribute("data-target");
-    const count = +counter.innerText;
-    const increment = target / 200;
-
-  if (count < target) {
-   counter.innerText = Math.ceil(count + increment);
-  setTimeout(updateCount, 10);
- } else {
-counter.innerText = target;
-}
-  };
-
-  updateCount();
-});
-
-// CURSOR
-const cursor = document.querySelector(".cursor");
-
-document.addEventListener("mousemove", e => {
-  cursor.style.left = e.pageX + "px";
-  cursor.style.top = e.pageY + "px";
-});
-
 
