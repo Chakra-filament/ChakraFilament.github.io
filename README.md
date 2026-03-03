@@ -98,113 +98,171 @@
    <h2>Nombre 4</h2>
         
         
-  </div>
-   
-</div>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chakra Filament</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor"></div>
+
+<!-- HERO -->
+<section class="hero reveal">
+  <h1>¿Te has preguntado dónde termina tu plástico?</h1>
+  <h2><span class="counter" data-target="400">0</span>M toneladas de plástico al año</h2>
+  <a href="#objetivos" class="btn">Ver más</a>
 </section>
 
+<!-- OBJETIVOS -->
+<section id="objetivos" class="reveal">
+  <h1>OBJETIVOS DEL PROYECTO</h1>
+  <p>Transformar residuos agrícolas amazónicos en filamentos biodegradables.</p>
+</section>
 
-
-
+<!-- FILAMENTOS -->
 <section class="reveal">
-  ...
+  <h1>FILAMENTOS</h1>
+  <p>Materiales sostenibles para impresión 3D.</p>
 </section>
 
-.reveal {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: all 0.8s ease;
-}
+<!-- EQUIPO -->
+<section class="team reveal">
+  <h1>CONOCE AL EQUIPO</h1>
 
-.reveal.active {
-  opacity: 1;
-  transform: translateY(0);
+  <div class="team-container">
 
+<div class="card">
+<div class="image">
+ <img src="img/persona1.jpg" alt="">
+</div>
+ <h2>Jessica Elizabeth Edina</h2>
+</div>
 
+ <div class="card">
+ <div class="image">
+ <img src="img/persona2.jpg" alt="">
+ </div>
+<h2>Arias Robinson Ulises</h2>
+ </div>
 
+<div class="card">
+ <div class="image">
+ <img src="img/persona3.jpg" alt="">
+</div>
+ <h2>Mazon Ortiz Gabriel Eduardo</h2>
+</div>
 
-// Scroll Animation
-function revealOnScroll() {
-  const reveals = document.querySelectorAll(".reveal");
+ <div class="card">
+ <div class="image">
+<img src="img/persona4.jpg" alt="">
+ </div>
+ <h2>Nombre 4</h2>
+</div>
 
-  reveals.forEach(element => {
-    const windowHeight = window.innerHeight;
-    const elementTop = element.getBoundingClientRect().top;
-    const elementVisible = 100;
+  </div>
+</section>
 
-   if (elementTop < windowHeight - elementVisible) {
-  element.classList.add("active");
-  }
-  });
-}
-
-window.addEventListener("scroll", revealOnScroll);
-
-
-
-
-<h2><span class="counter" data-target="400">0</span>M toneladas</h2>
-
-
-
-// Counter animation
-const counters = document.querySelectorAll(".counter");
-
-counters.forEach(counter => {
-  const updateCount = () => {
-    const target = +counter.getAttribute("data-target");
-    const count = +counter.innerText;
-    const increment = target / 200;
-
-   if (count < target) {
-   counter.innerText = Math.ceil(count + increment);
-  setTimeout(updateCount, 10);
-  } else {
-   counter.innerText = target;
-  }
-  };
-
-  updateCount();
+<script src="script.js"></script>
+</body>
+</html>
+  cursor.style.left = e.pageX + "px";
+  cursor.style.top = e.pageY + "px";
 });
 
 
 
 
-<section class="hero">
-
-
-.hero {
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-}
-
-
-
-
-<a href="#objetivos" class="btn">Ver más</a>
-
-
-
-html {
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f1f14;
+  color: white;
   scroll-behavior: smooth;
 }
 
+section {
+  padding: 100px 10%;
+  text-align: center;
+}
 
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1581092334601-1fba3b45b3b0');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  background: #00ff88;
+  padding: 12px 30px;
+  color: black;
+  text-decoration: none;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+}
+
+/* REVEAL ANIMATION */
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* TEAM CARDS */
+.team-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 
 .card {
+  background: #1d3a29;
+  padding: 20px;
+  border-radius: 20px;
+  width: 220px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 255, 120, 0.3);
+  box-shadow: 0 15px 30px rgba(0,255,120,0.3);
 }
 
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
 
+/* COUNTER */
+.counter {
+  font-size: 3rem;
+  color: #00ff88;
+}
 
-<div class="cursor"></div>
-
+/* CURSOR */
 .cursor {
   width: 20px;
   height: 20px;
@@ -214,15 +272,53 @@ html {
   pointer-events: none;
   transform: translate(-50%, -50%);
   transition: 0.1s;
+  z-index: 9999;
 }
 
 
 
+// SCROLL REVEAL
+function revealOnScroll() {
+  const reveals = document.querySelectorAll(".reveal");
+
+  reveals.forEach(element => {
+    const windowHeight = window.innerHeight;
+    const elementTop = element.getBoundingClientRect().top;
+    const elementVisible = 100;
+
+    if (elementTop < windowHeight - elementVisible) {
+      element.classList.add("active");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+revealOnScroll();
+
+// COUNTER
+const counters = document.querySelectorAll(".counter");
+
+counters.forEach(counter => {
+  const updateCount = () => {
+    const target = +counter.getAttribute("data-target");
+    const count = +counter.innerText;
+    const increment = target / 200;
+
+    if (count < target) {
+      counter.innerText = Math.ceil(count + increment);
+      setTimeout(updateCount, 10);
+    } else {
+      counter.innerText = target;
+    }
+  };
+
+  updateCount();
+});
+
+// CURSOR
 const cursor = document.querySelector(".cursor");
 
 document.addEventListener("mousemove", e => {
   cursor.style.left = e.pageX + "px";
   cursor.style.top = e.pageY + "px";
 });
-
-
